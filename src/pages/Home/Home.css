@@ -1,7 +1,4 @@
-.home-header {
-  color: #674675;
+.home-body {
+  height: 100vh;
   background-color: #F2C2C6;
-  font-family: "azo-sans-uber", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
