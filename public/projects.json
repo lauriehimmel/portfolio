@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Mastermind",
+    "live": "https://mastermind.lauriehimmel.com/",
+    "git": "https://github.com/lauriehimmel/Mastermind",
+    "image": "https://res.cloudinary.com/dpsymdmyi/image/upload/v1693251377/Mastermind-M-01_iqe2ab.png",
+    "info": "A codebreaking game for two! "
+  },
+  {
+    "name": "Scenic Shenanigans",
+    "live": "https://scenic-shenanigans-edd3a3d09050.herokuapp.com/",
+    "git": "https://github.com/lauriehimmel/Scenic_Shenanigans",
+    "image": "https://res.cloudinary.com/dpsymdmyi/image/upload/v1693251377/Scenic-S-01_i61c6q.png",
+    "info": "Are you ready to turn your vacations into unforgettable stories? Say hello to your new digital travel journal. Whether it`s the excitement of upcoming adventures or the nostalgia of past escapades, our platform lets you capture every moment. Join us in creating a world of memories. Your next adventure starts here!"    
+  },
+  {
+    "name": "Wink",
+    "live": "http://localhost:3000/projects",
+    "git": "https://github.com/lauriehimmel/wink",
+    "image": "https://res.cloudinary.com/dpsymdmyi/image/upload/v1693251377/Scenic-S-01_i61c6q.png",
+    "info": "Welcome to Wink, home of the cutest one-eyed animals you'll ever meet! Wink is a full-stack MERN app that allows you to create and interact with digital pets."    
+  }
+]
+

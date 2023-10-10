@@ -4,6 +4,7 @@ import Mastermind from "../../components/Projects/Mastermind";
 import Wink from "../../components/Projects/Wink";
 
 import Header from "../../components/Header/Header";
+import ProjectsMap from '../../components/Projects/Projects-map';
 
 
 export default function Projects () {
@@ -11,9 +12,7 @@ export default function Projects () {
     <>
     <Header />
     <div className="projects-main">
-      <Kindr />
-      <Wink />
-      <Mastermind />
+      <ProjectsMap />
     </div>
     </>
   )
