@@ -8,3 +8,8 @@
   padding-left: 8vw;
   padding-top: 5vw;
 }
+
+a {
+  text-decoration: none;
+  color: #674675;
+}
