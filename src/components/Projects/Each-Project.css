@@ -1,6 +1,4 @@
-.dot {
-width: 50%;
-}
+
 
 .project-main {
   display: flex;
@@ -10,10 +8,6 @@ width: 50%;
   justify-content: space-around;
 }
 
-/* .one {
-  width: 50%;
-  border: 1px solid yellow;
-}*/
 .project-text {
   width: 50%;
   border: 1px solid pink;

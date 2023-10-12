@@ -1,11 +1,27 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./Navbar.css";
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const heroRef = useRef(null);
+
+  useEffect(() => {
+    const updateMousePosition = (ev) => {
+      if (!heroRef.current) return;
+      const { clientX, clientY } = ev;
+      heroRef.current.style.setProperty("--x", `${clientX}px`);
+      heroRef.current.style.setProperty("--y", `${clientY}px`);
+    };
+
+    window.addEventListener("mousemove", updateMousePosition);
+
+    return () => {
+      window.removeEventListener("mousemove", updateMousePosition);
+    };
+  }, []);
 
   return (
-    <nav className="navigation">
+    <nav ref={heroRef} className="hero">
       <a href="/" className="logo">
         LH
       </a>
@@ -15,18 +31,7 @@ export default function Navbar() {
           setIsNavExpanded(!isNavExpanded);
         }}
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5"
-          viewBox="0 0 20 20"
-          fill="white"
-        >
-          <path
-            fillRule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-            clipRule="evenodd"
-          />
-        </svg>
+        <p>h!</p>
       </button>
       <div
         className={
