@@ -11,14 +11,17 @@
 }
 
 .hero {
+  --color-1: #BF88B0;
+  --color-2: #77618C;
   height: 10dvw;
   width: 100%;
   background-color: #674675;
   background-image: radial-gradient(
     circle farthest-side at var(--x, 100px) var(--y, 100px),
-    #BF88B0 0%,
-    transparent 100%
+     var(--color-1) 0%,
+     var(--color-2) 100%
   );
+  /* transition: var(--color-1) 100ms linear, var(--color-2) 100ms linear; */
   display: flex;
   align-items: center;
   position: relative;

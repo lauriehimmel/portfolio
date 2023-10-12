@@ -1,29 +1,49 @@
-import { useEffect, useRef } from "react";
-import "./test.css";
+import styled from 'styled-components';
 
-export default function Test() {
-  const heroRef = useRef(null);
+import useRainbow from './useRainbow.hook';
+import React from 'react';
 
-  useEffect(() => {
-    const updateMousePosition = (ev) => {
-      if (!heroRef.current) return;
-      const { clientX, clientY } = ev;
-      heroRef.current.style.setProperty("--x", `${clientX}px`);
-      heroRef.current.style.setProperty("--y", `${clientY}px`);
-    };
+const MagicRainbowButton = ({
+  children,
+  intervalDelay = 1300,
+  ...delegated
+}) => {
+  const transitionDelay = intervalDelay * 1.25;
 
-    window.addEventListener("mousemove", updateMousePosition);
+  const colors = useRainbow({ intervalDelay });
 
-    return () => {
-      window.removeEventListener("mousemove", updateMousePosition);
-    };
-  }, []);
+  const colorKeys = Object.keys(colors);
 
   return (
-    <>
-      <div ref={heroRef} className="herotest">
-        <p className="titletest">Gradients!</p>
-      </div>
-    </>
+    <ButtonElem
+      {...delegated}
+      style={{
+        ...colors,
+        transition: `
+          ${colorKeys[0]} ${transitionDelay}ms linear,
+          ${colorKeys[1]} ${transitionDelay}ms linear,
+          ${colorKeys[2]} ${transitionDelay}ms linear
+        `,
+        background: `
+          radial-gradient(
+            circle at top left,
+            var(${colorKeys[2]}),
+            var(${colorKeys[1]}),
+            var(${colorKeys[0]})
+          )
+        `,
+      }}
+    >
+      {children}
+    </ButtonElem>
   );
-}
+};
+
+const ButtonElem = styled.button`
+  position: relative;
+  border: none;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+`;
+
+export default MagicRainbowButton;
