@@ -5,9 +5,9 @@
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: #fff;
+  background: linear-gradient(135deg, rgba(191,136,176,1) 0%, rgba(176,186,217,1) 100%);
   color: black;
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  /* box-shadow: 0 2px 2px 2px rgba(9, 3, 126, 0.673); */
 }
 
 .logo {
