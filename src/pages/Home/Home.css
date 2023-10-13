@@ -1,3 +1,5 @@
 .home-body {
-  height: 100vh;
+  height: 100dvh;
+    padding-left: 10vw;
+  padding-top: 20vh;
 }

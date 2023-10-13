@@ -1,7 +1,10 @@
 import styled from 'styled-components';
+import { useState, useEffect, useRef } from "react";
 
+import './test.css';
 import useRainbow from './useRainbow.hook';
 import React from 'react';
+import Navbar from '../../components/Navbar/Navbar';
 
 const MagicRainbowButton = ({
   children,
@@ -14,8 +17,27 @@ const MagicRainbowButton = ({
 
   const colorKeys = Object.keys(colors);
 
+  const testRef = useRef(null);
+
+  useEffect(() => {
+    const updateMousePosition = (ev) => {
+      if (!testRef.current) return;
+      const { clientX, clientY } = ev;
+      testRef.current.style.setProperty("--x", `${clientX}px`);
+      testRef.current.style.setProperty("--y", `${clientY}px`);
+    };
+
+    window.addEventListener("mousemove", updateMousePosition);
+
+    return () => {
+      window.removeEventListener("mousemove", updateMousePosition);
+    };
+  }, []);
+
   return (
-    <ButtonElem
+    <>
+    <button
+    ref={testRef} 
       {...delegated}
       style={{
         ...colors,
@@ -33,17 +55,15 @@ const MagicRainbowButton = ({
           )
         `,
       }}
+      className="testbutton"
     >
       {children}
-    </ButtonElem>
+    </button>
+    </>
   );
 };
 
-const ButtonElem = styled.button`
-  position: relative;
-  border: none;
-  color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-`;
 
 export default MagicRainbowButton;
+
+

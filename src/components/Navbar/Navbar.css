@@ -19,7 +19,7 @@
   background-image: radial-gradient(
     circle farthest-side at var(--x, 100px) var(--y, 100px),
      var(--color-1) 0%,
-     var(--color-2) 100%
+     transparent 100%
   );
   /* transition: var(--color-1) 100ms linear, var(--color-2) 100ms linear; */
   display: flex;
