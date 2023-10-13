@@ -67,3 +67,7 @@ const MagicRainbowButton = ({
 export default MagicRainbowButton;
 
 
+// URL: https://www.joshwcomeau.com/react/rainbow-button/
+// GITHUB: https://github.com/joshwcomeau/blog/tree/master/src/components/MagicRainbowButton
+
+// gradient tutorial: https://www.youtube.com/watch?v=u1s3uHQibAs

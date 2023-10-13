@@ -15,7 +15,7 @@
   },
   {
     "name": "Wink",
-    "live": "http://localhost:3000/projects",
+    "live": "https://winkfriends.netlify.app",
     "git": "https://github.com/lauriehimmel/wink",
     "image": "./assets/Wink-Logo.svg",
     "info": "Welcome to Wink, home of the cutest one-eyed animals you'll ever meet! Wink is a full-stack MERN app that allows you to create and interact with digital pets."    
