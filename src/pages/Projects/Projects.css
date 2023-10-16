@@ -59,4 +59,6 @@
 }
 .project-info button {
   padding: 1rem;
+  background-color: #28007e;
+  color: white;
 }
