@@ -11,11 +11,11 @@
 }
 
 .hero {
-  --color-1: #BF88B0;
+  --color-1: #28007e;
   --color-2: #77618C;
   height: 10dvw;
   width: 100%;
-  background-color: #674675;
+  background-color: #8D1C38;
   background-image: radial-gradient(
     circle farthest-side at var(--x, 100px) var(--y, 100px),
      var(--color-1) 0%,
