@@ -3,6 +3,8 @@ import "./test-tabs.css";
 import FirstTab from "./Tabs/FirstTab";
 import SecondTab from "./Tabs/SecondTab";
 
+// https://blog.logrocket.com/how-to-build-tab-component-react/#creating-tab-component
+
 const TestTabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
 
