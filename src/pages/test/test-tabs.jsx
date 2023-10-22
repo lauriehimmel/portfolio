@@ -3,6 +3,10 @@ import "./test-tabs.css";
 import FirstTab from "./Tabs/FirstTab";
 import SecondTab from "./Tabs/SecondTab";
 import ThirdTab from "./Tabs/ThirdTab";
+import TabNavItem from "./Tabs/TabNavItem";
+import TabContent from "./Tabs/TabContent";
+import Wink from "../../assets/Wink-Screenshot.jpg";
+
 
 // https://blog.logrocket.com/how-to-build-tab-component-react/#creating-tab-component
 
@@ -24,27 +28,22 @@ const TestTabs = () => {
   return (
     <div className="Tabs">
       <ul className="nav">
-        <li
-          className={activeTab === "tab1" ? "active" : ""}
-          onClick={handleTab1}
-        >
-          Wink
-        </li>
-        <li
-          className={activeTab === "tab2" ? "active" : ""}
-          onClick={handleTab2}
-        >
-          Tab 2
-        </li>
-        <li
-          className={activeTab === "tab3" ? "active" : ""}
-          onClick={handleTab3}
-        >
-          Tab 2
-        </li>
+        <TabNavItem title="Wink" id="tab1" activeTab={activeTab} setActiveTab={setActiveTab}/>
+        <TabNavItem title="Kindr" id="tab2" activeTab={activeTab} setActiveTab={setActiveTab}/>
+        <TabNavItem title="Mastermind" id="tab3" activeTab={activeTab} setActiveTab={setActiveTab}/>
       </ul>
+ 
       <div className="outlet">
-        {activeTab === "tab1" ? <FirstTab /> : <SecondTab />}
+        <TabContent id="tab1" activeTab={activeTab}>
+          <FirstTab />
+          <img className="project-img" src={Wink}/>
+        </TabContent>
+        <TabContent id="tab2" activeTab={activeTab}>
+          <p>Tab 2 works!</p>
+        </TabContent>
+        <TabContent id="tab3" activeTab={activeTab}>
+          <p>Tab 3 works!</p>
+        </TabContent>
       </div>
     </div>
   );
