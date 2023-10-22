@@ -79,7 +79,7 @@ ul.nav li.active {
   padding: 0.5rem;
 }
 
-.FirstTab {
+.FirstTab, .SecondTab, .ThirdTab {
   display: flex;
   gap: 2rem;
   align-items: center;
@@ -88,14 +88,14 @@ ul.nav li.active {
 }
 
 @media screen and (min-width: 768px) {
-  .FirstTab {
+  .FirstTab, .SecondTab, .ThirdTab {
     padding: 2rem;
     font-size: 1.2rem;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .FirstTab {
+  .FirstTab, .SecondTab, .ThirdTab {
     padding: 1rem;
     font-size: 1rem;
   }
