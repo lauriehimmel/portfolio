@@ -79,24 +79,24 @@ ul.nav li.active {
   padding: 0.5rem;
 }
 
+.FirstTab {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 @media screen and (min-width: 768px) {
   .FirstTab {
-    display: flex;
-    align-items: center;
     padding: 2rem;
-    color: white;
-    font-size: 1.5rem;
-    gap: 2rem;
+    font-size: 1.2rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .FirstTab {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
     padding: 1rem;
-    color: white;
     font-size: 1rem;
   }
 }
