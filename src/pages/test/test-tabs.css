@@ -16,12 +16,15 @@
 /* Tab Navigation */
 ul.nav {
   width: 60%;
-  margin: 0 auto 2rem;
+  color: white;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #39A2DB;
-  border-radius: 2rem;
+  border: 1px solid #28007e;
+  /* border-radius: 2rem; */
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
   padding-left: 0px;
   @media (max-width: 768px) {
     width: 90%;
@@ -38,12 +41,12 @@ ul.nav li {
 }
  
 ul.nav li:first-child {
-  border-bottom-left-radius: 2rem;
+  /* border-bottom-left-radius: 2rem; */
   border-top-left-radius: 2rem;
 }
  
 ul.nav li:last-child {
-  border-bottom-right-radius: 2rem;
+  /* border-bottom-right-radius: 2rem; */
   border-top-right-radius: 2rem;
 }
  
@@ -52,7 +55,7 @@ ul.nav li:hover {
 }
  
 ul.nav li.active {
-  background: #39A2DB;
+  background: #28007e;
 }
  
 /* Tab Content Styles */
@@ -62,7 +65,12 @@ ul.nav li.active {
 }
 
 
-
+.outlet {
+  background-color: #28007e;
+  border: 1px solid #28007e;
+  width: 60%;
+  margin: auto;
+}
 
 .wink-logo {
   width: 30%;
