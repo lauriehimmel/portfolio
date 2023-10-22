@@ -11,7 +11,7 @@ export default function Projects () {
     {/* <Header /> */}
     <Navbar />
     <div className="projects-main">
-      {/* <ProjectsMap /> */}
+      <ProjectsMap />
     </div>
     </>
   )
