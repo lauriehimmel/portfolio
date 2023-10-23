@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import "./test-tabs.css";
-import FirstTab from "./Tabs/FirstTab";
-import SecondTab from "./Tabs/SecondTab";
-import ThirdTab from "./Tabs/ThirdTab";
-import TabNavItem from "./Tabs/TabNavItem";
-import TabContent from "./Tabs/TabContent";
+import "./Project-tabs.css";
+import FirstTab from "./FirstTab";
+import SecondTab from "./SecondTab";
+import ThirdTab from "./ThirdTab";
+import TabNavItem from "./TabNavItem";
+import TabContent from "./TabContent";
 import Wink from "../../assets/Wink-Screenshot.jpg";
-import Kindr from "../../assets/Kindr-Screenshot.png"
+import Kindr from "../../assets/Kindr-Screenshot.jpg"
 
 
 // https://blog.logrocket.com/how-to-build-tab-component-react/#creating-tab-component
 
-const TestTabs = () => {
+const ProjectTabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
 
   const handleTab1 = () => {
@@ -44,10 +44,11 @@ const TestTabs = () => {
           <img className="project-img" src={Kindr}/>
         </TabContent>
         <TabContent id="tab3" activeTab={activeTab}>
-          <p>Tab 3 works!</p>
+          <ThirdTab />
+          <img className="project-img" src={Kindr}/>
         </TabContent>
       </div>
     </div>
   );
 };
-export default TestTabs;
+export default ProjectTabs;

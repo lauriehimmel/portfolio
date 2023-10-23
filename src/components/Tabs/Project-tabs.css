@@ -70,9 +70,9 @@ ul.nav li.active {
   margin: auto;
 }
 
-.wink-logo {
-  width: 80%;
-  height: 80%;
+.project-logo {
+  width: 20rem;
+  height: 20rem;
   object-fit: contain;
   background-color: white;
   border-radius: 50%;
