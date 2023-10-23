@@ -22,6 +22,8 @@ const FirstTab = () => {
           simpler time when phones had cords and apps were just what came before
           entrees.
         </p>
+        <br />
+       <div className="links"><a className="link-text" href="https://winkfriends.netlify.app/">Live site</a> | <a className="link-text" href="https://github.com/lauriehimmel/wink">Github</a></div>
       </div>
     </div>
   );

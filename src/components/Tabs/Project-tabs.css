@@ -1,8 +1,8 @@
-.TestTabs {
+/* .TestTabs {
   width: 80%;
   height: auto;
   min-height: 400px;
-  background: #053742;
+  background: #8D1C38;
   margin: 3.5rem auto 1.5rem;
   padding: 2rem 1rem;
   color: #e8f0f2;
@@ -10,18 +10,22 @@
   @media (max-width: 769px) {
     padding: 2rem 0;
   }
+} */
+
+.Tabs {
+  height: 100%;
+  padding-bottom: 2rem;
 }
 
 /* Tab Navigation */
 ul.nav {
   width: 60%;
   color: white;
-  margin: 0 auto;
+  margin: 2rem auto 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #28007e;
-  /* border-radius: 2rem; */
+  border: 1px solid #8D1C38;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   padding-left: 0px;
@@ -40,21 +44,19 @@ ul.nav li {
 }
 
 ul.nav li:first-child {
-  /* border-bottom-left-radius: 2rem; */
   border-top-left-radius: 2rem;
 }
 
 ul.nav li:last-child {
-  /* border-bottom-right-radius: 2rem; */
   border-top-right-radius: 2rem;
 }
 
 ul.nav li:hover {
-  background: rgba(50, 224, 196, 0.15);
+  background: rgba(165, 14, 112, 0.301);
 }
 
 ul.nav li.active {
-  background: #28007e;
+  background: #8D1C38;
 }
 
 /* Tab Content Styles */
@@ -64,10 +66,13 @@ ul.nav li.active {
 }
 
 .outlet {
-  background-color: #28007e;
-  border: 1px solid #28007e;
+  background-color: #8D1C38;
+  border: 1px solid #8D1C38;
   width: 60%;
   margin: auto;
+  padding-bottom: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
 
 .project-logo {
@@ -103,4 +108,14 @@ ul.nav li.active {
 
 .project-img {
   width: 90%;
+}
+
+.links {
+  border: 1px solid white;
+  border-radius: 2rem;
+  padding: 1rem 0;
+}
+
+.link-text {
+  color: white;
 }
