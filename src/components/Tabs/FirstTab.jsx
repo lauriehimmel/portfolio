@@ -9,7 +9,8 @@ const FirstTab = () => {
       </a>
       <div>
         <p>
-          Welcome to Wink, home of the cutest one-eyed animals you'll ever meet!
+          Welcome to <strong>Wink</strong>, home of the cutest one-eyed animals
+          you'll ever meet!
         </p>
         <br />
         <p>
@@ -23,7 +24,23 @@ const FirstTab = () => {
           entrees.
         </p>
         <br />
-       <div className="links"><a className="link-text" href="https://winkfriends.netlify.app/">Live site</a> | <a className="link-text" href="https://github.com/lauriehimmel/wink">Github</a></div>
+        <div className="links">
+          <a
+            className="link-text"
+            href="https://winkfriends.netlify.app/"
+            target="blank"
+          >
+            Live site
+          </a>{" "}
+          |{" "}
+          <a
+            className="link-text"
+            href="https://github.com/lauriehimmel/wink"
+            target="blank"
+          >
+            Github
+          </a>
+        </div>
       </div>
     </div>
   );

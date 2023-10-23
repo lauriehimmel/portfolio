@@ -28,6 +28,9 @@ ul.nav {
   border: 1px solid #8D1C38;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
+  font-family: "azo-sans-uber", sans-serif;
+  font-weight: 400;
+  font-size: 2dvw;
   padding-left: 0px;
   @media (max-width: 768px) {
     width: 90%;
@@ -114,8 +117,13 @@ ul.nav li.active {
   border: 1px solid white;
   border-radius: 2rem;
   padding: 1rem 0;
+  background-color: #F2C2C6;
 }
 
 .link-text {
-  color: white;
+  color: #8D1C38;
+}
+
+.links :hover {
+  color: #fffeff;
 }

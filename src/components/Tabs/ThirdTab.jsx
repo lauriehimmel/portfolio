@@ -19,6 +19,24 @@ const ThirdTab = () => {
         </p>
         <br />
         <p>Mastermind!</p>
+        <br />
+        <div className="links">
+          <a
+            className="link-text"
+            href="https://winkfriends.netlify.app/"
+            target="blank"
+          >
+            Live site
+          </a>{" "}
+          |{" "}
+          <a
+            className="link-text"
+            href="https://github.com/lauriehimmel/wink"
+            target="blank"
+          >
+            Github
+          </a>
+        </div>
       </div>
     </div>
   );
