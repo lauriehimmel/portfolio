@@ -7,6 +7,7 @@ import TabNavItem from "./TabNavItem";
 import TabContent from "./TabContent";
 import Wink from "../../assets/Wink-Screenshot.jpg";
 import Kindr from "../../assets/Kindr-Screenshot.jpg"
+import BuiltWith from "./BuiltWith";
 
 
 // https://blog.logrocket.com/how-to-build-tab-component-react/#creating-tab-component
@@ -37,14 +38,20 @@ const ProjectTabs = () => {
       <div className="outlet">
         <TabContent id="tab1" activeTab={activeTab}>
           <FirstTab />
+          <BuiltWith />
+          <div className="line"></div>
           <img className="project-img" src={Wink}/>
         </TabContent>
         <TabContent id="tab2" activeTab={activeTab}>
           <SecondTab />
+          <BuiltWith />
+          <div className="line"></div>
           <img className="project-img" src={Kindr}/>
         </TabContent>
         <TabContent id="tab3" activeTab={activeTab}>
           <ThirdTab />
+          <BuiltWith />
+          <div className="line"></div>
           <img className="project-img" src={Kindr}/>
         </TabContent>
       </div>

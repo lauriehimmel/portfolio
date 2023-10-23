@@ -5,7 +5,7 @@ const SecondTab = () => {
   return (
     <div className="SecondTab">
       <a href="https://winkfriends.netlify.app/" target="blank">
-        <img className="project-logo" src="./assets/Kindr-Logo.svg" />
+        {/* <img className="project-logo" src="./assets/Kindr-Logo.svg" /> */}
       </a>
       <div>
         <p>Kindr is an app. It is very good. VERY good.</p>
@@ -18,14 +18,26 @@ const SecondTab = () => {
         </p>
         <br />
         <p>
-          Let's come together and make the world a brighter place, one act
-          of kindness at a time!
+          Let's come together and make the world a brighter place, one act of
+          kindness at a time!
+        </p>
+        <br />
+        <p className="projects-link-hover">
+          Created in collaboration with{" "}
+          <a
+            className="projects-link"
+            href="https://louispino.netlify.app/"
+            target="blank"
+          >
+            Louis Pino
+          </a>
+          .
         </p>
         <br />
         <div className="links">
           <a
             className="link-text"
-            href="https://winkfriends.netlify.app/"
+            href="https://graceful-pixie-5234dd.netlify.app/"
             target="blank"
           >
             Live site
@@ -33,7 +45,7 @@ const SecondTab = () => {
           |{" "}
           <a
             className="link-text"
-            href="https://github.com/lauriehimmel/wink"
+            href="https://github.com/LouisPino/Kindr"
             target="blank"
           >
             Github

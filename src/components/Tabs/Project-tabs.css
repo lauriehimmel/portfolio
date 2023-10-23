@@ -25,7 +25,7 @@ ul.nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #8D1C38;
+  border: 1px solid #8d1c38;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   font-family: "azo-sans-uber", sans-serif;
@@ -59,7 +59,7 @@ ul.nav li:hover {
 }
 
 ul.nav li.active {
-  background: #8D1C38;
+  background: #8d1c38;
 }
 
 /* Tab Content Styles */
@@ -69,8 +69,8 @@ ul.nav li.active {
 }
 
 .outlet {
-  background-color: #8D1C38;
-  border: 1px solid #8D1C38;
+  background-color: #8d1c38;
+  border: 1px solid #8d1c38;
   width: 60%;
   margin: auto;
   padding-bottom: 2rem;
@@ -79,15 +79,17 @@ ul.nav li.active {
 }
 
 .project-logo {
-  width: 20rem;
-  height: 20rem;
+  width: 10rem;
+  height: 10rem;
   object-fit: contain;
   background-color: white;
   border-radius: 50%;
   padding: 0.5rem;
 }
 
-.FirstTab, .SecondTab, .ThirdTab {
+.FirstTab,
+.SecondTab,
+.ThirdTab {
   display: flex;
   gap: 2rem;
   align-items: center;
@@ -96,16 +98,19 @@ ul.nav li.active {
 }
 
 @media screen and (min-width: 768px) {
-  .FirstTab, .SecondTab, .ThirdTab {
+  .FirstTab,
+  .SecondTab,
+  .ThirdTab {
     padding: 2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .FirstTab, .SecondTab, .ThirdTab {
+  .FirstTab,
+  .SecondTab,
+  .ThirdTab {
     padding: 1rem;
-    font-size: 1rem;
   }
 }
 
@@ -117,13 +122,40 @@ ul.nav li.active {
   border: 1px solid white;
   border-radius: 2rem;
   padding: 1rem 0;
-  background-color: #F2C2C6;
+  background-color: #f2c2c6;
 }
 
 .link-text {
-  color: #8D1C38;
+  color: #8d1c38;
+  text-decoration: none;
 }
 
 .links :hover {
-  color: #fffeff;
+  color: #674675;
+}
+
+.projects-link {
+  color: #f2c2c6;
+  text-decoration: none;
+}
+
+.projects-link-hover :hover {
+  color: #674675;
+}
+
+.line {
+  border-bottom: 2px dotted #f2c2c6;
+  margin: 0 auto 2rem auto;
+  width: 30%;
+}
+
+.logos {
+  width: 2rem;
+}
+
+.all-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }

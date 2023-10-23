@@ -5,7 +5,7 @@ const ThirdTab = () => {
   return (
     <div className="ThirdTab">
       <a href="https://winkfriends.netlify.app/" target="blank">
-        <img className="project-logo" src="./assets/Mastermind-Logo.svg" />
+        {/* <img className="project-logo" src="./assets/Mastermind-Logo.svg" /> */}
       </a>
       <div>
         <p>WORK IN PROGRESS:</p>

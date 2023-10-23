@@ -4,9 +4,9 @@ import "./Project-tabs.css";
 const FirstTab = () => {
   return (
     <div className="FirstTab">
-      <a href="https://winkfriends.netlify.app/" target="blank">
-        <img className="project-logo" src="./assets/Wink-Logo.svg" />
-      </a>
+      {/* <a href="https://winkfriends.netlify.app/" target="blank"> */}
+        {/* <img className="project-logo" src="./assets/Wink-Logo.svg" /> */}
+      {/* </a> */}
       <div>
         <p>
           Welcome to <strong>Wink</strong>, home of the cutest one-eyed animals
