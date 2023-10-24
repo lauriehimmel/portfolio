@@ -17,7 +17,10 @@ function App() {
     heroku: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698105259/heroku_etywh1.svg",
     netlify: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698105259/netlify_rb2nzu.svg",
     openAI: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698105260/openai_ntsyko.svg",
-    express: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698176672/expressjs_qkju8s.svg"
+    express: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698176672/expressjs_qkju8s.svg",
+    python: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698184981/python_xvw2ix.svg",
+    sql: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698185410/sql_hr4unp.png",
+    restapi: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698185410/rest-api_rlmkoa.svg"
   }
   return (
     <div className="App">

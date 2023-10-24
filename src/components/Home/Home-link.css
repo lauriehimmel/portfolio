@@ -3,6 +3,13 @@
   font-size: 7vw;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  /* padding-left: 10vw; */
-  /* padding-top: 7vh; */
+}
+
+.come-in {
+  text-decoration: none;
+  color: #674675;
+}
+
+.come-in:hover{
+  color: #8d1c38;
 }

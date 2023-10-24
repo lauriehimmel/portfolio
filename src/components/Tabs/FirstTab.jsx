@@ -16,7 +16,7 @@ export default function FirstTab({builtWith}) {
           <br />
           <p>
             Wink is a full-stack MERN app that allows you to create and interact
-            with dåigital pets.
+            with digital pets.
           </p>
           <br />
           <p>
