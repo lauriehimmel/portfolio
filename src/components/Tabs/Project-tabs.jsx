@@ -7,12 +7,11 @@ import TabNavItem from "./TabNavItem";
 import TabContent from "./TabContent";
 import Wink from "../../assets/Wink-Screenshot.jpg";
 import Kindr from "../../assets/Kindr-Screenshot.jpg"
-import BuiltWith from "./BuiltWith.jsx";
 
 
 // https://blog.logrocket.com/how-to-build-tab-component-react/#creating-tab-component
 
-const ProjectTabs = () => {
+export default function ProjectTabs({builtWith}) {
   const [activeTab, setActiveTab] = useState("tab1");
 
   const handleTab1 = () => {
@@ -37,20 +36,18 @@ const ProjectTabs = () => {
  
       <div className="outlet">
         <TabContent id="tab1" activeTab={activeTab}>
-          <FirstTab />
-          {/* <BuiltWith /> */}
+          <FirstTab builtWith={builtWith}/>
           <img className="project-img" src={Wink}/>
         </TabContent>
         <TabContent id="tab2" activeTab={activeTab}>
-          <SecondTab />
+          <SecondTab  builtWith={builtWith}/>
           <img className="project-img" src={Kindr}/>
         </TabContent>
         <TabContent id="tab3" activeTab={activeTab}>
-          <ThirdTab />
+          <ThirdTab  builtWith={builtWith}/>
           <img className="project-img" src={Kindr}/>
         </TabContent>
       </div>
     </div>
   );
 };
-export default ProjectTabs;
