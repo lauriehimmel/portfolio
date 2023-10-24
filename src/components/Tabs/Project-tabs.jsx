@@ -45,7 +45,6 @@ export default function ProjectTabs({builtWith}) {
         </TabContent>
         <TabContent id="tab3" activeTab={activeTab}>
           <ThirdTab  builtWith={builtWith}/>
-          <img className="project-img" src={Kindr}/>
         </TabContent>
       </div>
     </div>

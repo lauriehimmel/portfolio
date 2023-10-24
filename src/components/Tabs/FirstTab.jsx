@@ -50,7 +50,6 @@ export default function FirstTab({builtWith}) {
       <img className="logos" src={builtWith.react} />
       <img className="logos" src={builtWith.html} />
       <img className="logos" src={builtWith.css} />
-        <p>|</p>
       <img className="logos" src={builtWith.netlify} />
       </div>
       <div className="line"></div>

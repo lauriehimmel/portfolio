@@ -5,14 +5,11 @@ export default function SecondTab({ builtWith }) {
   return (
     <>
       <div className="SecondTab">
-        <a href="https://winkfriends.netlify.app/" target="blank">
-          {/* <img className="project-logo" src="./assets/Kindr-Logo.svg" /> */}
-        </a>
         <div>
           <p>Kindr is an app. It is very good. VERY good.</p>
           <br />
           <p>
-            Kindr is a platform where you can create, share, and participate in
+            <strong>Kindr</strong> is a platform where you can create, share, and participate in
             meaningful acts of kindness. Whether you choose to complete deeds
             from fellow Kindr members or embark on the daily challenge, every
             day is an opportunity to make a positive impact.
@@ -60,8 +57,12 @@ export default function SecondTab({ builtWith }) {
         <img className="logos" src={builtWith.react} />
         <img className="logos" src={builtWith.html} />
         <img className="logos" src={builtWith.css} />
-        <p>|</p>
+        <img className="logos" src={builtWith.express} />
+        <img className="logos" src={builtWith.nodejs} />
+        <img className="logos" src={builtWith.mongodb} />
+        <img className="logos" src={builtWith.heroku} />
         <img className="logos" src={builtWith.netlify} />
+        <img className="logos" src={builtWith.openAI} />
       </div>
       <div className="line"></div>
     </>

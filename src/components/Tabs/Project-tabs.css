@@ -101,7 +101,7 @@ ul.nav li.active {
   .FirstTab,
   .SecondTab,
   .ThirdTab {
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
     font-size: 1rem;
   }
 }
@@ -110,7 +110,8 @@ ul.nav li.active {
   .FirstTab,
   .SecondTab,
   .ThirdTab {
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
+    font-size: .75rem;
   }
 }
 
@@ -155,14 +156,17 @@ ul.nav li.active {
 
 .all-logos {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 1rem;
   color: #f2c2c6;
   border: 1px solid black;
-  width: 60%;
-  margin: auto;
-  padding: .5rem;
+  width: 70%;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .75rem;
   border-radius: 2rem;
 }
 

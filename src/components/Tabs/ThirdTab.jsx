@@ -4,39 +4,17 @@ import "./Project-tabs.css";
 const ThirdTab = () => {
   return (
     <div className="ThirdTab">
-      <a href="https://winkfriends.netlify.app/" target="blank">
-        {/* <img className="project-logo" src="./assets/Mastermind-Logo.svg" /> */}
-      </a>
       <div>
-        <p>WORK IN PROGRESS:</p>
+        <p>Work in progress: MASTERMIND</p>
         <br />
         <p>
           {" "}
-          Kindr is a platform where you can create, share, and participate in
-          meaningful acts of kindness. Whether you choose to complete deeds from
-          fellow Kindr members or embark on the daily challenge, every day is an
-          opportunity to make a positive impact.!
+          I'm currently taking the very first project, built with JavaScript, and turning it into a React app. I'm looking forward to seeing the growth I've made, and being able to execute on this project exactly the way I had originally envisioned.
         </p>
         <br />
-        <p>Mastermind!</p>
+        <p><strong>Mastermind</strong> is usually a two-player game, but I wanted to create a version where the user plays against the computer to guess its randomly-generated code.</p>
         <br />
-        <div className="links">
-          <a
-            className="link-text"
-            href="https://winkfriends.netlify.app/"
-            target="blank"
-          >
-            Live site
-          </a>{" "}
-          |{" "}
-          <a
-            className="link-text"
-            href="https://github.com/lauriehimmel/wink"
-            target="blank"
-          >
-            Github
-          </a>
-        </div>
+        <p>Stay tuned for the finished product!</p>
       </div>
     </div>
   );

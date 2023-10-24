@@ -18,7 +18,8 @@ export default function Projects () {
     mongodb: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698105259/mongodb_olvjyh.svg",
     heroku: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698105259/heroku_etywh1.svg",
     netlify: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698105259/netlify_rb2nzu.svg",
-    openAI: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698105260/openai_ntsyko.svg"
+    openAI: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698105260/openai_ntsyko.svg",
+    express: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698176672/expressjs_qkju8s.svg"
   }
   return (
     <>
