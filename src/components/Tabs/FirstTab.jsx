@@ -1,8 +1,9 @@
 import React from "react";
 import "./Project-tabs.css";
 
-const FirstTab = () => {
+export default function FirstTab ({frontEnd}){
   return (
+    <>
     <div className="FirstTab">
       {/* <a href="https://winkfriends.netlify.app/" target="blank"> */}
         {/* <img className="project-logo" src="./assets/Wink-Logo.svg" /> */}
@@ -43,12 +44,7 @@ const FirstTab = () => {
         </div>
       </div>
     </div>
+    <img src={frontEnd} />
+    </>
   );
 };
-export default FirstTab;
-
-// "name": "Wink",
-// "live": "https://winkfriends.netlify.app",
-// "git": "https://github.com/lauriehimmel/wink",
-// "image": "./assets/Wink-Logo.svg",
-// "info": "Welcome to Wink, home of the cutest one-eyed animals you'll ever meet! Wink is a full-stack MERN app that allows you to create and interact with digital pets."
