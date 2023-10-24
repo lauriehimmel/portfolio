@@ -1,18 +1,19 @@
 import "./About-body.css";
-export default function AboutBody() {
+export default function AboutBody({builtWith}) {
   return (
     <div>
         <p className="about-body">
           I'm a software engineer with a collaborative spirit and an eye for
-          design. As a quick learner and patient problem-solver, I'm always
-          ready for whatever new opportunity or adventure comes my way.
+          design. I bring expertise in project management, problem-solving, and a careful consideration of the user's needs, having spent years in the eCommerce arena doing just that. My experience allows me to be a versatile developer, an efficient communicator, and a compassionate coworker. 
         </p>
-        <p className="about-body">
-          My diverse experiences allow me to thrive in any environment, and I
-          use all my skills to their fullest so I can be a true asset to my
-          team.
-        </p>
-        <p className="about-body">put languages, etc. here</p>
+        <div className="about-logos">
+          <img className="about-logo" src={builtWith.react}/>
+          <img className="about-logo" src={builtWith.js}/>
+          <img className="about-logo" src={builtWith.nodejs}/>
+          <img className="about-logo" src={builtWith.mongodb}/>
+          <img className="about-logo" src={builtWith.html}/>
+          <img className="about-logo" src={builtWith.css}/>
+        </div>
     </div>
   );
 }
