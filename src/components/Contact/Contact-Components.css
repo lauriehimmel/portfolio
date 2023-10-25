@@ -3,4 +3,52 @@
   flex-direction: column;
   width: 40%;
   margin: auto;
+  font-family: "azo-sans-uber", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: left;
+  color: #674675;
 }
+
+.contact-form label {
+  margin-top: 1rem;
+  margin-bottom: .25rem;
+}
+
+.contact-form textarea {
+height: 5rem;
+}
+
+.submit-button {
+  background-color: rgba(103, 70, 117, 0.396);
+  width: fit-content;
+  padding: .5rem;
+  border-radius: 2rem;
+  border: 3px solid #674675;
+  color: white;
+  margin: 1rem;
+  align-self: center;
+}
+
+.contact-logos {
+  height: 4rem;
+  padding: 1rem;
+}
+
+.contact-links-page {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.url {
+  text-decoration: none;
+}
+
