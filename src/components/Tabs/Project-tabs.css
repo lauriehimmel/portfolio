@@ -32,9 +32,6 @@ ul.nav {
   font-weight: 400;
   font-size: 2dvw;
   padding-left: 0px;
-  /* @media (max-width: 768px) {
-    width: 90%;
-  } */
 }
 
 ul.nav li {
@@ -112,6 +109,14 @@ ul.nav li.active {
   .ThirdTab {
     padding: 1rem 1rem 0 1rem;
     font-size: .75rem;
+  }
+
+    ul.nav {
+    width: 90%;
+  }
+
+  .outlet {
+    width: 90%;
   }
 }
 
