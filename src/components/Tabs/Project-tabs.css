@@ -32,9 +32,9 @@ ul.nav {
   font-weight: 400;
   font-size: 2dvw;
   padding-left: 0px;
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     width: 90%;
-  }
+  } */
 }
 
 ul.nav li {
