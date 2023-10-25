@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import Test from "./pages/test/test";
+import ContactPage from "./pages/Contact/Contact";
 
 function App() {
   const builtWith = {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/about" element={<About builtWith={builtWith}/>} />
         <Route path="/projects" element={<Projects builtWith={builtWith}/>} />
         <Route path="/test" element={<Test />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </div>
   );
