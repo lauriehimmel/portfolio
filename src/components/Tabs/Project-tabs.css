@@ -1,23 +1,8 @@
-/* .TestTabs {
-  width: 80%;
-  height: auto;
-  min-height: 400px;
-  background: #8D1C38;
-  margin: 3.5rem auto 1.5rem;
-  padding: 2rem 1rem;
-  color: #e8f0f2;
-  border-radius: 2rem;
-  @media (max-width: 769px) {
-    padding: 2rem 0;
-  }
-} */
-
 .Tabs {
   height: 100%;
   padding-bottom: 2rem;
 }
 
-/* Tab Navigation */
 ul.nav {
   width: 60%;
   color: white;
@@ -62,7 +47,6 @@ ul.nav li.active {
   background: #8d1c38;
 }
 
-/* Tab Content Styles */
 .TabContent {
   font-size: 2rem;
   text-align: center;

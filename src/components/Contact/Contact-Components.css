@@ -32,7 +32,11 @@ height: 5rem;
 .contact-logos {
   height: 4rem;
   padding: 1rem;
-  /* border: 1px solid green; */
+  transition: transform .7s ease-in-out;
+}
+
+.contact-logos :hover {
+  transform: rotate(360deg);
 }
 
 .contact-links-page {
@@ -56,9 +60,29 @@ height: 5rem;
   font-family: "azo-sans-uber", sans-serif;
   font-weight: 400;
   font-size: 2rem;
+}
+
+.thankyou-form {
   padding-top: 2rem;
+
 }
 
 .intouch {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-copy {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem;
+  border: 3px solid #674675;
+  background-color: rgba(103, 70, 117, 0.396);
+  border-radius: 2rem;
+  width: 50%;
+  margin: 2rem auto 1rem;
+}
+
+.copy-para {
+  margin-top: 2dvh;
+  line-height: 1.5rem;
 }

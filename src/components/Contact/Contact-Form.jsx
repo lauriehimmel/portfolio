@@ -36,8 +36,10 @@ export const ContactUs = () => {
 
   return submitted ? (
     <div>
+      <div className="thankyou-form">
       <p className="thankyou">Thank you!</p>
       <p className="intouch">I'll be in touch as soon as I can!</p>
+      </div>
     </div>
   ) : (
     <>
