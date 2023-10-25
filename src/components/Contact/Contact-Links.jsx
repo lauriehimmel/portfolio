@@ -1,5 +1,7 @@
 import github from "../../assets/github-mark.svg";
 import linkedin from "../../assets/LI-logo.png";
+import "./Contact-Components.css";
+
 
 export default function ContactLinks() {
   return (
