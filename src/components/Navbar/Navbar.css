@@ -29,7 +29,6 @@
 }
 
 .logo {
-  text-decoration: none;
   color: #F2C2C6;
   font-family: "azo-sans-uber", sans-serif;
   font-weight: 400;
@@ -52,7 +51,6 @@
 }
 
 .navigation-menu li a {
-  text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   display: block;
   width: 100%;
