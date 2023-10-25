@@ -35,7 +35,7 @@ export default function SecondTab({ builtWith }) {
           <div className="links">
             <a
               className="link-text"
-              href="https://graceful-pixie-5234dd.netlify.app/"
+              href="https://itskindr.netlify.app/"
               target="blank"
             >
               Live site
