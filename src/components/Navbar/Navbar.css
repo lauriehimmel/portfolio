@@ -73,8 +73,8 @@
   display: none;
 }
 .hamburger:hover {
-  transform: rotate(1080deg);
-  transition: transform 1s ease-out;
+  transform: rotate(360deg);
+  transition: transform .5s ease-in-out;
 
 }
 

@@ -66,8 +66,8 @@
 }
 
 .skills :hover {
-  transform: scale(1.5);
-  transition: .7s;
+  transform: rotate(1080deg);
+  transition: transform 1s ease-out;
 }
 
 .about-component {
