@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
 .hi {
-  color: #674675;
+  color: #300378;
   font-family: "azo-sans-uber", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 768px) {
   .hi {
-    color: #674675;
+    color: #300378;
     font-family: "azo-sans-uber", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -25,8 +25,8 @@
   font-family: Arial, Helvetica, sans-serif;
   /* padding: 0.5rem 2rem; */
   padding: 2rem;
-  border: 3px solid #674675;
-  background-color: rgba(103, 70, 117, 0.396);
+  border: 3px solid #300378;
+  background-color: rgba(48, 3, 120, 0.396);
   border-radius: 2rem;
   width: fit-content;
 }
