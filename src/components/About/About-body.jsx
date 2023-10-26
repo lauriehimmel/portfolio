@@ -31,6 +31,10 @@ export default function AboutBody({ builtWith }) {
           MongoDB
         </div>
         <div className="skills">
+          <img className="about-logo" src={builtWith.express} />
+          Express
+        </div>
+        <div className="skills">
           <img className="about-logo" src={builtWith.html} />
           HTML
         </div>
@@ -43,8 +47,12 @@ export default function AboutBody({ builtWith }) {
           Python
         </div>
         <div className="skills">
-          <img className="about-logo" src={builtWith.sql} />
+          <img className="about-logo" src={builtWith.postgre} />
           SQL
+        </div>
+        <div className="skills">
+          <img className="about-logo" src={builtWith.postman} />
+          Postman
         </div>
         <div className="skills">
           <img className="about-logo" src={builtWith.restapi} />

@@ -15,6 +15,7 @@ export default function ContactLinks() {
       <a href="https://www.linkedin.com/in/laurie-himmel/"> <img className="contact-logos" src={linkedin} /></a>
         <a className="url" href="https://www.linkedin.com/in/laurie-himmel/"></a>
       </div>
+      <div>< a href="https://mail.google.com/mail/?view=cm&source=mailto&to=lauriehimmel1@gmail.com" target="_blank">test</a></div>
       </div>
     </>
   );
