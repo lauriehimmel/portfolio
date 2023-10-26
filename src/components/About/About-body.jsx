@@ -54,10 +54,6 @@ export default function AboutBody({ builtWith }) {
           <img className="about-logo" src={builtWith.postman} />
           Postman
         </div>
-        <div className="skills">
-          <img className="about-logo" src={builtWith.restapi} />
-          REST API
-        </div>
       </div>
     </div>
   );
