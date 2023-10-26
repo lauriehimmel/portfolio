@@ -18,7 +18,7 @@ function App() {
     heroku: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698337026/skills/Heroku_oxp71y.svg",
     netlify: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698337041/skills/Netlify_t4ywlg.svg",
     openAI: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698337042/skills/openai-white-logomark_zugfhz.svg",
-    express: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698176672/expressjs_qkju8s.svg",
+    express: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698337026/skills/Express_iokjpp.svg",
     python: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698337081/skills/python_tgul5o.svg",
     postgre: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698337081/skills/postgre_eauwfl.png",
     restapi: "https://res.cloudinary.com/dpsymdmyi/image/upload/v1698185410/rest-api_rlmkoa.svg",
