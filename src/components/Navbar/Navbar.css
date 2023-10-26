@@ -87,11 +87,16 @@
   }
 
 .location {
-  color: #8d1c38;
+  background-color: #8d1c38;
+  border-radius: 2rem;
+  padding: 1dvw;
+  color: white;
 }
 
 .notlocation {
   color: #f2c2c6;
+  border-radius: 2rem;
+  padding: 1dvw;
 }
 
 @media screen and (max-width: 768px) {
