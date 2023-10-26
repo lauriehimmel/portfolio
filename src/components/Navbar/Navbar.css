@@ -64,17 +64,18 @@
   width: 6dvw;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #674675;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
-  top: 50%;
+  top: 15%;
   right: 25px;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   display: none;
 }
 .hamburger:hover {
-  background-color: #2642af;
+  transform: rotate(1080deg);
+  transition: transform 1s ease-out;
+
 }
 
 @media screen and (max-width: 768px) {

@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./Navbar.css";
+import hamburger from "../../assets/hamburger-menu.png";
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -25,14 +26,15 @@ export default function Navbar() {
       <a href="/" className="logo">
         LH
       </a>
-      <button
+      <div className="hover">
+      <img
+        src={hamburger}
         className="hamburger"
         onClick={() => {
           setIsNavExpanded(!isNavExpanded);
         }}
-      >
-        <p>h!</p>
-      </button>
+      />
+      </div>
       <div
         className={
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
