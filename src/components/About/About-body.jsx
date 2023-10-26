@@ -2,15 +2,17 @@ import "./About-body.css";
 export default function AboutBody({ builtWith }) {
   return (
     <div className="about-component">
-      <p className="about-body">
+      <div className="about-body">
       <p className="hi">Hi! I'm Laurie. </p>
+      <p className="aboutbody-text">
         I'm a software engineer with a collaborative spirit and an eye for
         design. <br />I bring expertise in project management, problem-solving,
         and a careful consideration of the user's needs having spent years in
         the eCommerce space doing just that. <br />
         My experience allows me to be a versatile developer, an efficient
         communicator, and a compassionate coworker.
-      </p>
+        </p>
+      </div>
       <div className="about-logos">
         <div className="skills">
           <img className="about-logo" src={builtWith.react} />
