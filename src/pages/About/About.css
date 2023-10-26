@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 790px) {
   .about-content {
     display: flex;
     flex-direction: row;
@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 790px) {
   .about-content {
     display: flex;
     flex-direction: column;
