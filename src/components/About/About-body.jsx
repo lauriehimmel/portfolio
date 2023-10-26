@@ -2,8 +2,8 @@ import "./About-body.css";
 export default function AboutBody({ builtWith }) {
   return (
     <div className="about-component">
-      <p className="hi">Hi! I'm Laurie. </p>
       <p className="about-body">
+      <p className="hi">Hi! I'm Laurie. </p>
         I'm a software engineer with a collaborative spirit and an eye for
         design. <br />I bring expertise in project management, problem-solving,
         and a careful consideration of the user's needs having spent years in
