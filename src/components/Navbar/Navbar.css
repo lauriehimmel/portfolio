@@ -59,8 +59,8 @@
   display: block;
   width: 100%;
   font-size: 2dvw;
-  color: #f2c2c6;
 }
+
 
 .hamburger {
   border: 0;
@@ -85,9 +85,15 @@
 .nav-items :hover {
   color: white;
   }
-.highlight {
-  color: black;
+
+.location {
+  color: #8d1c38;
 }
+
+.notlocation {
+  color: #f2c2c6;
+}
+
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
