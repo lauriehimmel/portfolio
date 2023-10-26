@@ -1,5 +1,10 @@
 .home-body {
   height: 100dvh;
-    padding-left: 10vw;
+  padding-left: 10vw;
+  @media (max-width: 768px) {
   padding-top: 20vh;
+  }
+  @media (min-width: 768px) {
+    padding-top: 10vh;
+    }
 }
