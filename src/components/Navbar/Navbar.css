@@ -81,6 +81,9 @@
   transition: transform 0.5s ease-in-out;
 }
 
+.nav-items {
+  margin-right: 3rem;
+}
 
 .nav-items :hover {
   color: white;
