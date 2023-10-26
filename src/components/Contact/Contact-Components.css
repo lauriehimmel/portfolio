@@ -9,6 +9,13 @@
   text-align: left;
 }
 
+@media screen and (max-width: 768px) {
+  .contact-form {
+    width: 70%;
+  }
+}
+
+
 .contact-form label {
   margin-top: 1rem;
   margin-bottom: .25rem;
