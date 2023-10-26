@@ -31,7 +31,7 @@ height: 5rem;
 
 .contact-logos {
   height: 4rem;
-  padding: 1rem;
+  padding: 0 1rem;
   transition: transform .7s ease-in-out;
 }
 
@@ -79,14 +79,10 @@ height: 5rem;
   background-color: rgba(103, 70, 117, 0.396);
   border-radius: 2rem;
   width: 50%;
-  margin: 2rem auto 1rem;
+  margin: 2rem auto;
 }
 
 .copy-para {
   margin-top: 2dvh;
   line-height: 1.5rem;
-}
-
-.url {
-  color: rgba(103, 70, 117, 0.551);
 }

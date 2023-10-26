@@ -53,7 +53,7 @@ export const ContactUs = () => {
         <input
           className="submit-button"
           type="submit"
-          value="Submit!"
+          value="Submit"
           onClick={submitForm}
         />
       </form>
