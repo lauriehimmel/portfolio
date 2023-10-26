@@ -6,10 +6,10 @@ export default function SecondTab({ builtWith }) {
     <>
       <div className="SecondTab">
         <div>
-          <p>Kindr is an app. It is very good. VERY good.</p>
+          <p>Kindr is an app. It is good. VERY good.</p>
           <br />
           <p>
-            <strong>Kindr</strong> is a platform where you can create, share, and participate in
+            <strong>Kindr</strong> is a platform for Do-Gooders. You can create, share, and participate in
             meaningful acts of kindness. Whether you choose to complete deeds
             from fellow Kindr members or embark on the daily challenge, every
             day is an opportunity to make a positive impact.

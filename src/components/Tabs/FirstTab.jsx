@@ -20,7 +20,7 @@ export default function FirstTab({builtWith}) {
           </p>
           <br />
           <p>
-            Inspired by the 90s and my one-eyed dog Roux, it takes you back to a
+            Inspired by the '90s and my one-eyed dog Roux, it takes you back to a
             simpler time when phones had cords and apps were just what came
             before entrees.
           </p>

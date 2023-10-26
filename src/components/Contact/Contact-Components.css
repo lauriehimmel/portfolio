@@ -86,3 +86,7 @@ height: 5rem;
   margin-top: 2dvh;
   line-height: 1.5rem;
 }
+
+.url {
+  color: rgba(103, 70, 117, 0.551);
+}
