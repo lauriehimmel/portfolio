@@ -8,12 +8,12 @@ export default function ContactLinks() {
     <>
     <div className="contact-links-page">
       <div className="contact-links">
-      <a href="https://www.linkedin.com/in/laurie-himmel/"> <img className="contact-logos" src={github} /></a>
-        <a className="url" href="https://www.linkedin.com/in/laurie-himmel/">LinkedIn</a>
+      <a href="https://github.com/lauriehimmel"> <img className="contact-logos" src={github} /></a>
+        <a className="url" href="https://github.com/lauriehimmel"></a>
       </div>
       <div className="contact-links">
-      <a href="https://github.com/lauriehimmel"> <img className="contact-logos" src={linkedin} /></a>
-        <a className="url" href="https://github.com/lauriehimmel">Github</a>
+      <a href="https://www.linkedin.com/in/laurie-himmel/"> <img className="contact-logos" src={linkedin} /></a>
+        <a className="url" href="https://www.linkedin.com/in/laurie-himmel/"></a>
       </div>
       </div>
     </>

@@ -44,9 +44,6 @@
   transition: transform 0.7s ease-in-out;
 }
 
-.contact-logos :hover {
-  transform: rotate(360deg);
-}
 
 .contact-links-page {
   display: flex;
@@ -59,6 +56,10 @@
   justify-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-links :hover {
+  transform: scale(1.1);
 }
 
 .contact-form,

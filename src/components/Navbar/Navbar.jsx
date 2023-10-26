@@ -67,7 +67,7 @@ export default function Navbar({location}) {
 }
 {location === "about" &&
         <ul className="nav-items">
-          <li>
+          <li className="notLocation-li">
             <a className="notlocation" href="/projects">Projects</a>
           </li>
           <li>

@@ -134,6 +134,7 @@
   }
   .navigation-menu li:hover {
     background-color: #eee;
+    border-radius: 2rem;
   }
   .navigation-menu ul {
     display: none;
