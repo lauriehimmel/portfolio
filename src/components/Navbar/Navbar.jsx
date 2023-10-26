@@ -40,7 +40,7 @@ export default function Navbar() {
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
       >
-        <ul>
+        <ul className="nav-items">
           <li>
             <a href="/projects">Projects</a>
           </li>

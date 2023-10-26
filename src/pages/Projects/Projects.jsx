@@ -9,7 +9,7 @@ import ProjectCopy from '../../components/Projects/Project-copy';
 export default function Projects ({builtWith}) {
   return (
     <>
-    <Navbar />
+    <Navbar location={'projects'}/>
     <div className="projects-main">
       <ProjectCopy />
       <ProjectTabs builtWith={builtWith}/>

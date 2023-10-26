@@ -6,7 +6,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function ContactPage() {
   return (
     <>
-      <Navbar />
+      <Navbar location={'contact'}/>
       <ContactCopy />
       <ContactLinks />
       <ContactUs />
