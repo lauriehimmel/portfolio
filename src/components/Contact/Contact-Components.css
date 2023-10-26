@@ -15,7 +15,7 @@
 }
 
 .contact-form textarea {
-height: 5rem;
+height: 7rem;
 }
 
 .submit-button {
@@ -85,4 +85,8 @@ height: 5rem;
 .copy-para {
   margin-top: 2dvh;
   line-height: 1.5rem;
+}
+
+.contact-form input {
+  line-height: 2rem;
 }
