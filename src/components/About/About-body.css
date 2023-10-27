@@ -26,11 +26,24 @@
   font-family: Arial, Helvetica, sans-serif;
   /* padding: 0.5rem 2rem; */
   padding: 2rem;
+  width: fit-content;
+}
+
+.about-body, .view-resume {
   border: 3px solid #674675;
   background-color: rgba(103, 70, 117, 0.396);
   border-radius: 2rem;
+}
+.view-resume {
   width: fit-content;
-  
+  padding: .5rem .75rem;
+  margin: 2rem auto 0rem;
+  font-size: .75rem;
+  cursor: pointer;
+}
+
+.view-resume :hover {
+  color: #F2C2C6;
 }
 
 .about-logos {

@@ -64,14 +64,14 @@
 
 .hamburger {
   border: 0;
-  height: 6dvw;
-  width: 6dvw;
+  height: 8dvw;
+  width: 8dvw;
   padding: 0.5rem;
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
-  top: 15%;
+  top: 8%;
   right: 25px;
   /* transform: translateY(-50%); */
   display: none;
