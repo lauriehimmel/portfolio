@@ -18,6 +18,12 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .contact-form {
+  font-size: 1rem;
+  }
+}
+
 .contact-form label {
   margin-top: 1rem;
   margin-bottom: 0.25rem;
@@ -27,13 +33,12 @@
   height: 7rem;
 }
 
-@media screen and (min-width: 768px) {
+
 .submit-button {
   background-color: rgba(103, 70, 117, 0.396);
   font-family: "azo-sans-uber", sans-serif;
   font-weight: 400;
   width: 30%;
-  font-size: 1rem;
   padding: 0.5rem;
   border-radius: 2rem;
   border: 3px solid #674675;
@@ -41,7 +46,6 @@
   margin: 1rem;
   align-self: center;
   text-align: center;
-}
 }
 
 .contact-logos {
