@@ -13,6 +13,9 @@
   .contact-form {
     width: 70%;
   }
+  .submit-button {
+    font-size: .75rem;
+  }
 }
 
 .contact-form label {
@@ -24,6 +27,7 @@
   height: 7rem;
 }
 
+@media screen and (min-width: 768px) {
 .submit-button {
   background-color: rgba(103, 70, 117, 0.396);
   font-family: "azo-sans-uber", sans-serif;
@@ -37,6 +41,7 @@
   margin: 1rem;
   align-self: center;
   text-align: center;
+}
 }
 
 .contact-logos {
