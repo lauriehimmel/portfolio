@@ -25,11 +25,11 @@ const App = () => {
     };
     return (
         <>
-        <div className="container">
-                <button className="resume-pdf" onClick={onButtonClick}>
+        {/* <div className="container"> */}
+                {/* <button className="resume-pdf" onClick={onButtonClick}>
                     Download a PDF of my resume
-                </button>
-                </div>
+                </button> */}
+                {/* </div> */}
         </>
     );
 };
