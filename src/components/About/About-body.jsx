@@ -10,15 +10,13 @@ export default function AboutBody({ builtWith }) {
       <div className="about-body">
         <p className="hi">Hi! I'm Laurie. </p>
         <p className="aboutbody-text">
-          I'm a software engineer with a collaborative spirit and an eye for
-          design. <br />I bring expertise in project management,
-          problem-solving, and a careful consideration of the user's needs
-          having spent years in the eCommerce space doing just that. <br />
-          My experience allows me to be a versatile developer, an efficient
-          communicator, and a compassionate coworker.
-        </p>
+          I'm a software engineer with a collaborative spirit and a designer's eye. <br />With extensive eCommerce experience, I excel at communicating with users, empathizing with their needs, and solving their problems.<br />
+          As a versatile dev I communicate with clarity and compassion. Curiosity and creativity drive me; I look for innovative solutions and am always on the hunt for increased efficiency.
+          <br /><br />
+          <strong>Let's work together!</strong>
+          </p>
         <div onClick={() => navigate("/resume")} className="view-resume">
-          <p className="hovertest">View my Resume!</p>
+          <p className="hovertest">View my Resume</p>
         </div>
       </div>
       <AboutSkills builtWith={builtWith} />
