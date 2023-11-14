@@ -95,3 +95,17 @@ a:active.btn {
     left: 1px;
   }
 }
+
+.testresume {
+  font-family: arial;
+}
+.resume-header {
+  font-size: 7dvh;
+}
+.resume-section-header {
+  font-size: 3dvh;
+}
+
+.resume-text {
+  color: blue;
+}
