@@ -34,6 +34,7 @@ function App() {
         <Route path="/test" element={<Test />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/resume" element={<ResumePage />} />
+        <Route path="/testresume" element={<TestLaurieResume />} />
       </Routes>
     </div>
   );

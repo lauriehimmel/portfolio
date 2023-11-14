@@ -1,14 +1,9 @@
 import Resume from './Laurie-Resume.svg';
 import './Resume.css'
 
-export default function LaurieResume() {
-  const [isLoading, setIsLoading] = useState(true)
+export default function TestLaurieResume() {
 
-  useEffect(() => {
-    setIsLoading(false)
-  }, []);
-
-  return isLoading ? (
+  return (
     <>
       <div>
         <p className="resume-header">Laurie Himmel</p>
@@ -73,10 +68,6 @@ export default function LaurieResume() {
         <p>New York University	New York, NY
           BFA, Drama</p>
       </div>
-    </>
-  ) : (
-    <>
-      <div><img className="resume-onepage" src={Resume} /></div>
-    </>
+      </>
   )
 }
