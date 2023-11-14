@@ -1,5 +1,7 @@
+import { useEffect, useState } from 'react';
 import Resume from './Laurie-Resume.svg';
 import './Resume.css'
+
 
 export default function LaurieResume() {
   const [isLoading, setIsLoading] = useState(true)
