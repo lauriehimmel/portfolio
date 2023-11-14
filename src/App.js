@@ -6,6 +6,7 @@ import Projects from "./pages/Projects/Projects";
 import Test from "./pages/test/test";
 import ContactPage from "./pages/Contact/Contact";
 import ResumePage from "./pages/Resume/ResumePage";
+import TestLaurieResume from "./components/Resume/TestResume";
 
 function App() {
   const builtWith = {
@@ -34,6 +35,7 @@ function App() {
         <Route path="/test" element={<Test />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/resume" element={<ResumePage />} />
+        <Route path="/testresume" element={<TestLaurieResume />} />
       </Routes>
     </div>
   );
