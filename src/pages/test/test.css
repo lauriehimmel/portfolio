@@ -11,6 +11,7 @@
   background-color: #f5e9df;
   height: 100%;
   justify-content: center;
+  z-index: 1;
 }
 
 /* .moonwix-cake {
@@ -24,30 +25,45 @@
 .moonwix-cake2 {
   width: 50%;
   padding: none;
+  z-index: 2;
 }
 
 .logocake {
   display: flex;
   width: 100%;
+  z-index: 2;
 }
 
 .moonwix-logo {
   width: 50%;
+  z-index: 2;
 }
 .darkmode {
   background-color: darkblue;
   padding-top: 1rem;
   border: 1px solid yellow;
+  z-index: 2;
 }
 
 .discoballz {
   display: flex;
+  z-index: 2;
 }
 
 .ballz {
   width: 20%;
+  z-index: 2;
 }
 
 .lightmode {
   padding-top: 14rem;
+  z-index: 2;
+}
+
+.bgsparkles {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }

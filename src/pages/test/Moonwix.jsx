@@ -3,6 +3,7 @@ import cake from "./cake.gif";
 import logo from "./Moonwix.svg";
 import smoke from "./cakesmoke.gif";
 import disco from "./discoball.gif";
+import bgsparkles from "./sparklesbg.gif"
 import { useState } from "react";
 
 export default function Moonwix() {
@@ -31,7 +32,7 @@ export default function Moonwix() {
             <img className="moonwix-logo" src={logo} />
             <img
               className="moonwix-cake2"
-              src={smoke}
+              src={cake}
               onClick={blowOutTwo}
             />{" "}
           </div>
@@ -50,15 +51,13 @@ export default function Moonwix() {
             <img className="moonwix-logo" src={logo} />
             <img
               className="moonwix-cake2"
-              src={cake}
+              src={smoke}
               onClick={blowOutTwo}
             />{" "}
+          <img className="bgsparkles" src={bgsparkles} />
           </div>
         </div>
       )}
-      <div>
-        heyyy
-      </div>
     </div>
   );
 }
