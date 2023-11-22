@@ -13,6 +13,41 @@
   justify-content: center;
 }
 
-.moonwix-cake {
+/* .moonwix-cake {
   width: 80%;
+} */
+
+.moonwix-cake3 {
+  width: 70%;
+}
+
+.moonwix-cake2 {
+  width: 50%;
+  padding: none;
+}
+
+.logocake {
+  display: flex;
+  width: 100%;
+}
+
+.moonwix-logo {
+  width: 50%;
+}
+.darkmode {
+  background-color: darkblue;
+  padding-top: 1rem;
+  border: 1px solid yellow;
+}
+
+.discoballz {
+  display: flex;
+}
+
+.ballz {
+  width: 20%;
+}
+
+.lightmode {
+  padding-top: 14rem;
 }
