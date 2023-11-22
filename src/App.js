@@ -7,6 +7,7 @@ import Test from "./pages/test/test";
 import ContactPage from "./pages/Contact/Contact";
 import ResumePage from "./pages/Resume/ResumePage";
 import TestLaurieResume from "./components/Resume/TestResume";
+import Moonwix from "./pages/test/Moonwix";
 
 function App() {
   const builtWith = {
@@ -36,6 +37,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/resume" element={<ResumePage />} />
         <Route path="/testresume" element={<TestLaurieResume />} />
+        <Route path="/moonwix" element={<Moonwix />} />
       </Routes>
     </div>
   );
