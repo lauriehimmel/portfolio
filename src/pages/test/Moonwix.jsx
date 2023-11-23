@@ -3,7 +3,14 @@ import cake from "./cake.gif";
 import logo from "./Moonwix.svg";
 import smoke from "./cakesmoke.gif";
 import disco from "./discoball.gif";
-import bgsparkles from "./sparklesbg.gif"
+import bgsparkles from "./sparklesbg.gif";
+import prodone from "./1product.jpg";
+import prodtwo from "./2product.jpg";
+import prodthree from "./3product.jpg";
+import prodfour from "./4product.jpg";
+import bootz from "./bootz.gif";
+import shapes from "./shapes.gif";
+
 import { useState } from "react";
 
 export default function Moonwix() {
@@ -58,6 +65,18 @@ export default function Moonwix() {
           </div>
         </div>
       )}
+      <div className="shop-now">SHOP NOW</div>
+      <div className="product-imgs">
+        <img className="prodimgs" src={prodone}/>
+        <img className="prodimgs" src={prodtwo}/>
+        <img className="prodimgs" src={prodthree}/>
+        <img className="prodimgs" src={prodfour}/>
+      </div>
+      <div className="product-categories">
+        <img className="categories" src={bootz} />
+        <img className="categories" src={shapes} />
+        <img className="categories" src="https://i.giphy.com/media/KxyWEgZ5tpgvNnbsEo/giphy.webp" />
+      </div>
     </div>
   );
 }

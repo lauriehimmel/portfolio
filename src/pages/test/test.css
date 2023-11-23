@@ -56,10 +56,10 @@
 }
 
 @media (min-width: 720px) {
-.lightmode {
-  padding-top: 14rem;
-  z-index: 2;
-}
+  .lightmode {
+    padding-top: 14rem;
+    z-index: 2;
+  }
 }
 
 @media (max-width: 720px) {
@@ -67,7 +67,7 @@
     z-index: 2;
     padding-top: 5rem;
   }
-  }
+}
 
 .bgsparkles {
   z-index: 1;
@@ -75,4 +75,23 @@
   top: 0;
   left: 0;
   width: 100%;
+}
+
+.shop-now {
+  font-family: "cubano", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6rem;
+  color: #c4afc9;
+  padding-top: 10rem;
+}
+
+.prodimgs {
+  width: 20%;
+}
+
+.product-imgs {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 1rem;
 }
