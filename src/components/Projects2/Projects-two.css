@@ -1,0 +1,25 @@
+.wink-project-title {
+  color: #8d1c38;
+  background-color: #ffffff;
+  font-size: 12dvw;
+  font-family: "puffin-arcade-liquid", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  /* padding-top: 1.5rem; */
+}
+
+.kindr-project-title {
+    font-family: asphalt,sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    color: rgba(243, 20, 9, 0.8);
+    text-shadow: 0px 4px 4px #fff, 0 0 0 #000;
+    font-size: 6rem;
+    text-align: center;
+    background-color: white;
+}
+
+.project-titles {
+    display: flex;
+    flex-direction: column;
+}

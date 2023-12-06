@@ -4,6 +4,7 @@ import ProjectsMap from '../../components/Projects/Projects-map';
 import Navbar from '../../components/Navbar/Navbar';
 import ProjectTabs from '../../components/Tabs/Project-tabs';
 import ProjectCopy from '../../components/Projects/Project-copy';
+import ProjectsTwo from '../../components/Projects2/Projects-two';
 
 
 export default function Projects ({builtWith}) {
