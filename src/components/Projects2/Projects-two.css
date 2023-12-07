@@ -1,25 +1,44 @@
 .wink-project-title {
-  color: #8d1c38;
-  background-color: #ffffff;
   font-size: 12dvw;
   font-family: "puffin-arcade-liquid", sans-serif;
   font-weight: 800;
   font-style: normal;
-  /* padding-top: 1.5rem; */
+  color: #ffffff;
+  background-color: #65489d;
 }
 
-.kindr-project-title {
-    font-family: asphalt,sans-serif;
-    font-size: 4rem;
-    letter-spacing: 0.1rem;
-    color: rgba(243, 20, 9, 0.8);
-    text-shadow: 0px 4px 4px #fff, 0 0 0 #000;
-    font-size: 6rem;
-    text-align: center;
-    background-color: white;
+.wink-project-title:hover {
+  color: black;
 }
 
 .project-titles {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
+
+.dev-design-title {
+  font-family: "amandine", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 7dvw;
+  color: #fec144;
+  background-color: #1e1e1e;
+}
+
+.dev-design-title:hover,
+.sydney-site-title:hover {
+  color: white;
+}
+
+@font-face {
+  font-family: VanillaRavioli;
+  src: url(../../fonts/VanillaRavioli_Demo.ttf);
+}
+
+.sydney-site-title {
+  font-family: VanillaRavioli;
+  font-size: 7.5dvw;
+  background-color: #764d40;
+  color: #dcc1af;
+}
+

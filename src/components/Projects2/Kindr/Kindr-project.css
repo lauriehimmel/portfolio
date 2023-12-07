@@ -1,0 +1,98 @@
+.kindr-project-title:hover {
+    color: black;
+  }
+
+  .kindr-project-title {
+    background-color: white;
+  }
+
+  .kindr-project-title,
+.kindr-page-title {
+  font-family: asphalt, sans-serif;
+  font-size: 10dvw;
+  letter-spacing: 0.1rem;
+  color: rgba(243, 20, 9, 0.8);
+  text-shadow: 0px 4px 4px #fff, 0 0 0 #000;
+  text-align: center;
+}
+
+.kindr-page-title {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+.kindr-page {
+    width: 80%;
+    margin: 2rem auto;
+    background: linear-gradient(-135deg, #fad95d, #ef4036);
+    padding-bottom: 2rem;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 2rem;
+  }
+  
+  .kindr-project-link {
+    color: rgba(243, 20, 9, 0.8);
+  }
+  
+  .kindr-project-link:hover {
+    color: white;
+  }
+  
+  .kindr-card > p,
+.kindr-card > ul {
+  color: #8d1c38;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.kindr-card > h1 {
+  font-family: asphalt, sans-serif;
+  color: #8d1c38;
+  font-size: 4dvw;
+  margin-bottom: 1rem;
+}
+
+.kindr-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+.kindr-header > img {
+  width: 50%;
+}
+
+.cloud2 {
+  z-index: 1;
+  width: 12rem;
+  position: fixed;
+  opacity: 70%;
+}
+
+.kindr-card {
+  z-index: 5;
+  position: relative;
+  border: 3px solid white;
+  background-color: rgba(255, 255, 255, 0.436);
+  width: 80%;
+  margin: 1rem auto 0 auto;
+  border-radius: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.kindr-link {
+  cursor: pointer;
+  color: #8d1c38;
+  font-weight: bold;
+}
+
+.kindr-link:hover {
+  color: white;
+}
+

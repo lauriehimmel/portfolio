@@ -1,0 +1,30 @@
+
+.dev-header {
+    font-family: "amandine", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7dvw;
+    color: #fec144;
+    background-color: #1e1e1e;
+    margin: 1rem auto;
+}
+
+.dev-info {
+    display: flex;
+}
+
+.dev-imgs, .dev-copy {
+    width: 50%;
+}
+
+.dev-copy {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.client-wireframes {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  

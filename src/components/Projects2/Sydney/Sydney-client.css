@@ -1,0 +1,28 @@
+
+.syd-header {
+    font-family: VanillaRavioli;
+    font-size: 7.5dvw;
+    background-color: #764d40;
+    color: #dcc1af;
+    margin: 1rem auto;
+}
+
+.syd-info {
+    display: flex;
+}
+
+.syd-imgs, .syd-copy {
+    width: 50%;
+}
+
+.syd-copy {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.client-wireframes {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  

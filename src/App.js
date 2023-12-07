@@ -8,6 +8,9 @@ import ContactPage from "./pages/Contact/Contact";
 import ResumePage from "./pages/Resume/ResumePage";
 import TestLaurieResume from "./components/Resume/TestResume";
 import Moonwix from "./pages/test/Moonwix";
+import KindrPage from "./pages/Projects/IndivProjects/Kindr";
+import DevPortfolio from "./pages/Projects/IndivProjects/DevPortfolio";
+import SydneyClient from "./components/Projects2/Sydney/Sydney-client";
 
 function App() {
   const builtWith = {
@@ -38,6 +41,9 @@ function App() {
         <Route path="/resume" element={<ResumePage />} />
         <Route path="/testresume" element={<TestLaurieResume />} />
         <Route path="/moonwix" element={<Moonwix />} />
+        <Route path="/kindr" element={<KindrPage />} />
+        <Route path="/client-portfolio-1" element={<DevPortfolio />} />
+        <Route path="/shine-with-sydney" element={<SydneyClient />} />
       </Routes>
     </div>
   );
