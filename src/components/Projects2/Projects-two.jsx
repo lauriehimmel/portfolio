@@ -6,7 +6,7 @@ export default function ProjectsTwo() {
   return (
     <div className="project-titles">
       <div>Projects</div>
-      <div className="wink-project-title">WINK</div>
+      <a className="wink-project-title">WINK</a>
       <a href="/Kindr"className="kindr-project-title">KINDR</a>
       <div>Client Work</div>
       <a href="/client-portfolio-1" className="dev-design-title">DEV PORTFOLIO</a>

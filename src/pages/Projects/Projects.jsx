@@ -12,9 +12,9 @@ export default function Projects ({builtWith}) {
     <>
     <Navbar location={'projects'}/>
     <div className="projects-main">
-      <ProjectCopy />
-      <ProjectTabs builtWith={builtWith}/>
-      {/* <ProjectsTwo /> */}
+      {/* <ProjectCopy />
+      <ProjectTabs builtWith={builtWith}/> */}
+      <ProjectsTwo />
     </div>
     </>
   )

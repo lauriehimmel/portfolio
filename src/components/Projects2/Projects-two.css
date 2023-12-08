@@ -14,6 +14,7 @@
 .project-titles {
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 .dev-design-title {
