@@ -27,8 +27,8 @@
   );
   /* transition: var(--color-1) 100ms linear, var(--color-2) 100ms linear; */
   display: flex;
-  align-items: center;
-  position: relative;
+  justify-content: space-between;
+  /* position: relative; */
   padding: 0.5rem 0rem;
 }
 
@@ -62,7 +62,6 @@
   font-size: 2dvw;
 }
 
-
 .hamburger {
   border: 0;
   height: 8dvw;
@@ -71,37 +70,14 @@
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
-  position: absolute;
-  top: 8%;
-  right: 25px;
-  /* transform: translateY(-50%); */
-  display: none;
 }
+
 .hamburger:hover {
   transform: rotate(360deg);
   transition: transform 0.5s ease-in-out;
 }
 
-.nav-items {
-  margin-right: 3rem;
-}
 
-.nav-items :hover {
-  color: white;
-  }
-
-.location {
-  background-color: #8d1c38;
-  border-radius: 2rem;
-  padding: 1dvw;
-  color: white;
-}
-
-.notlocation {
-  color: #f2c2c6;
-  border-radius: 2rem;
-  padding: 1dvw;
-}
 
 @media screen and (max-width: 768px) {
   .hamburger {

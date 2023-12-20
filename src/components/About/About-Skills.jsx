@@ -1,3 +1,5 @@
+import React from "react"
+
 export default function AboutSkills ({builtWith}) {
   return (
     <div className="about-logos">

@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router";
 import AboutSkills from "./About-Skills";
 import "./About-body.css";
+import React from "react";
+
 
 export default function AboutBody({ builtWith }) {
   const navigate = useNavigate();

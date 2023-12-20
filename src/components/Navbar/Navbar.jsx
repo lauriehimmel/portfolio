@@ -29,73 +29,8 @@ export default function Navbar({ location }) {
         <img
           src={hamburger}
           className="hamburger"
-          onClick={() => {
-            setIsNavExpanded(!isNavExpanded);
-          }}
+          
         />
-      </div>
-      <div
-        className={
-          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-        }
-      >
-        {location === "projects" && (
-          <ul className="nav-items">
-            <li>
-              <a className="location" href="/projects">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a className="notlocation" href="/contact">
-                Contact
-              </a>
-            </li>
-            <li>
-              <a className="notlocation" href="/about">
-                About
-              </a>
-            </li>
-          </ul>
-        )}
-        {location === "contact" && (
-          <ul className="nav-items">
-            <li>
-              <a className="notlocation" href="/projects">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a className="location" href="/contact">
-                Contact
-              </a>
-            </li>
-            <li>
-              <a className="notlocation" href="/about">
-                About
-              </a>
-            </li>
-          </ul>
-        )}
-        {location === "about" && (
-          <ul className="nav-items">
-            <li className="notLocation-li">
-              <a className="notlocation" href="/projects">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a className="notlocation" href="/contact">
-                Contact
-              </a>
-            </li>
-            <li>
-              <a className="location" href="/about">
-                About
-              </a>
-            </li>
-          </ul>
-        )}
       </div>
     </nav>
   );

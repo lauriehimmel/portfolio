@@ -82,6 +82,7 @@
 
 .about-component {
   margin: 2rem 2rem;
+  z-index: 5;
 }
 
 .aboutbody-text {

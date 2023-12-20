@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/" element={<About builtWith={builtWith}/>} />
+        <Route exact path="/" element={<Home builtWith={builtWith}/>} />
         <Route path="/about" element={<About builtWith={builtWith}/>} />
         <Route path="/projects" element={<Projects builtWith={builtWith}/>} />
         <Route path="/test" element={<Test />} />
