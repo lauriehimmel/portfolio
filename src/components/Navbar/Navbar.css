@@ -16,7 +16,8 @@
 .hero {
   --color-1: #28007e;
   --color-2: #77618c;
-  height: 10dvw;
+  min-height: 135vh;
+  height: 100%;
   width: 100%;
   background-color: #8d1c38;
   background-image: radial-gradient(
